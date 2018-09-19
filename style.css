@@ -1,0 +1,59 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 110px;
+}
+
+/* ---- layout ---- */
+
+.container{
+    margin:0 20px 0 20px;
+}
+
+/* ---- header ---- */
+header.header{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 5px;
+    left: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: (0,0,0,.15)
+}
+
+header .nav-bar ul{
+    display: none;
+}
+
+
+header .slack-logo{
+    width: 130px;
+    float: left;
+    padding-top: 5px;
+}
+
+header .nav-bar .border-menu{
+    width: 25px;
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+/* ---- section ---- */
+
+section.intro{
+    margin-top: 80px;
+}
