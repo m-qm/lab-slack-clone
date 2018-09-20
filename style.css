@@ -10,8 +10,10 @@ html {
 }
 
 h1 {
-    font-size: 40px;
+    padding-top: px;
+    font-size: 60px;
     color: #323648; 
+
 }
 
 body {
@@ -24,12 +26,15 @@ h2{
     color: #323648; 
 }
 
-intro.img {
-    width: 300px;
+img{
+    max-width: 100%;
 }
 
-img{
-    max-width: 110px;
+a.login {
+     text-decoration: none;
+     color: #3f46ad;
+     font-family: 'Times New Roman';
+     font-weight: bold;
 }
 
 p{
@@ -44,10 +49,18 @@ p{
     margin:0 20px 0 20px;
 }
 
+div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 /* ---- header ---- */
 header.header{
-    overflow: hidden;
     position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
     padding-top: 5px;
     left: 0;
@@ -63,17 +76,13 @@ header .nav-bar ul{
 
 header .slack-logo{
     width: 130px;
-    float: left;
     padding-top: 5px;
+    
 }
 
-header .nav-bar .border-menu{
-    width: 25px;
-    float: right;
-    padding-top: 15px;
-    margin-right: 20px;
-
-
+header .border-menu{
+    width: 30px;
+    
 }
 
 /* ---- section ---- */
@@ -98,3 +107,4 @@ section.intro{
 p .feature {
     font-family: sans-serif;
     }
+
